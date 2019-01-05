@@ -7,11 +7,6 @@ class Recipes extends Component {
     renderRecipes(){
         const allrecipes = recipes.map((el, index) => {
             return (
-                // <div key={index} className="recipe">
-                //     <p>Name: {el.name}</p>
-                //     <p>Servings: {el.servings}</p>
-                //     <p>Category: {el.category}</p>
-                // </div>
                  <Recipe recipe={el} key={index}/>
             )
         })
